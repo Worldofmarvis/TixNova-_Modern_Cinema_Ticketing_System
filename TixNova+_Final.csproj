@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62EEDEDB-B33D-44A6-8B11-F723CC513987}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TixNova__Final</RootNamespace>
+    <AssemblyName>TixNova+_Final</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>MSB3270</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlueGradientLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BookingData.cs" />
+    <Compile Include="CinemasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemasForm.Designer.cs">
+      <DependentUpon>CinemasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComingsoonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComingsoonForm.Designer.cs">
+      <DependentUpon>ComingsoonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMegaMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomSearchMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FadingImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GenreActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreActionForm.Designer.cs">
+      <DependentUpon>GenreActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreAnimation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreAnimation.Designer.cs">
+      <DependentUpon>GenreAnimation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreComFam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreComFam.Designer.cs">
+      <DependentUpon>GenreComFam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreDrama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreDrama.Designer.cs">
+      <DependentUpon>GenreDrama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreHorror.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreHorror.Designer.cs">
+      <DependentUpon>GenreHorror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreSciFi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreSciFi.Designer.cs">
+      <DependentUpon>GenreSciFi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlassPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GoodluckBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoodluckBook.Designer.cs">
+      <DependentUpon>GoodluckBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoodluckHaveFunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoodluckHaveFunForm.Designer.cs">
+      <DependentUpon>GoodluckHaveFunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDashBoard.Designer.cs">
+      <DependentUpon>MainDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MoviesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesForm.Designer.cs">
+      <DependentUpon>MoviesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountCenter.Designer.cs">
+      <DependentUpon>AccountCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutlineButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatedGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RatedGForm.Designer.cs">
+      <DependentUpon>RatedGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RatedPG13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RatedPG13.Designer.cs">
+      <DependentUpon>RatedPG13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RatedPGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RatedPGForm.Designer.cs">
+      <DependentUpon>RatedPGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RatedSPGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RatedSPGForm.Designer.cs">
+      <DependentUpon>RatedSPGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundedPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchAnime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchAnime.Designer.cs">
+      <DependentUpon>SearchAnime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTopFamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTopFamily.Designer.cs">
+      <DependentUpon>SearchTopFamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTopHorror.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTopHorror.Designer.cs">
+      <DependentUpon>SearchTopHorror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendHelpBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendHelpBook.Designer.cs">
+      <DependentUpon>SendHelpBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendHelpForm.Designer.cs">
+      <DependentUpon>SendHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShopBuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopBuy.Designer.cs">
+      <DependentUpon>ShopBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopForm.Designer.cs">
+      <DependentUpon>ShopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubheadingGradientLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserSession.cs" />
+    <Compile Include="BookingSeats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingSeats.Designer.cs">
+      <DependentUpon>BookingSeats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketDetails.Designer.cs">
+      <DependentUpon>TicketDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyBookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyBookings.Designer.cs">
+      <DependentUpon>MyBookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YearsLaterBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YearsLaterBook.Designer.cs">
+      <DependentUpon>YearsLaterBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YearsLaterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YearsLaterForm.Designer.cs">
+      <DependentUpon>YearsLaterForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CinemasForm.resx">
+      <DependentUpon>CinemasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComingsoonForm.resx">
+      <DependentUpon>ComingsoonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreActionForm.resx">
+      <DependentUpon>GenreActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreAnimation.resx">
+      <DependentUpon>GenreAnimation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreComFam.resx">
+      <DependentUpon>GenreComFam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreDrama.resx">
+      <DependentUpon>GenreDrama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreHorror.resx">
+      <DependentUpon>GenreHorror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreSciFi.resx">
+      <DependentUpon>GenreSciFi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoodluckBook.resx">
+      <DependentUpon>GoodluckBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoodluckHaveFunForm.resx">
+      <DependentUpon>GoodluckHaveFunForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashBoard.resx">
+      <DependentUpon>MainDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesForm.resx">
+      <DependentUpon>MoviesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountCenter.resx">
+      <DependentUpon>AccountCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RatedGForm.resx">
+      <DependentUpon>RatedGForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatedPG13.resx">
+      <DependentUpon>RatedPG13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatedPGForm.resx">
+      <DependentUpon>RatedPGForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatedSPGForm.resx">
+      <DependentUpon>RatedSPGForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchAnime.resx">
+      <DependentUpon>SearchAnime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTopFamily.resx">
+      <DependentUpon>SearchTopFamily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTopHorror.resx">
+      <DependentUpon>SearchTopHorror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendHelpBook.resx">
+      <DependentUpon>SendHelpBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendHelpForm.resx">
+      <DependentUpon>SendHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopBuy.resx">
+      <DependentUpon>ShopBuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopForm.resx">
+      <DependentUpon>ShopForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingSeats.resx">
+      <DependentUpon>BookingSeats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketDetails.resx">
+      <DependentUpon>TicketDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyBookings.resx">
+      <DependentUpon>MyBookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YearsLaterBook.resx">
+      <DependentUpon>YearsLaterBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YearsLaterForm.resx">
+      <DependentUpon>YearsLaterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="KillLockingProcess" BeforeTargets="BeforeBuild;Clean">
+    <Exec Command="taskkill /F /IM &quot;TixNova+_Final.exe&quot; 2&gt;nul" IgnoreExitCode="true" ContinueOnError="WarnAndContinue" />
+  </Target>
+  <Target Name="ForceCleanBinObj" BeforeTargets="Clean;Rebuild">
+    <RemoveDir Directories="$(OutputPath)" ContinueOnError="WarnAndContinue" />
+    <RemoveDir Directories="$(IntermediateOutputPath)" ContinueOnError="WarnAndContinue" />
+  </Target>
+  <PropertyGroup>
+    <BuildDependsOn>KillLockingProcess;$(BuildDependsOn)</BuildDependsOn>
+    <CleanDependsOn>KillLockingProcess;ForceCleanBinObj;$(CleanDependsOn)</CleanDependsOn>
+  </PropertyGroup>
+</Project>
