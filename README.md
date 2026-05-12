@@ -93,7 +93,7 @@ To run TixNova+ on your local machine, follow these instructions:
 
 | Avatar | Name | Role | Github |
 | :---: | :--- | :--- | :--- |
-| <img src="https://github.com/Vmar10.png" width="40" height="40" style="border-radius: 50%;"> | Edmar D. Visto | Developer | [https://github.com/Vmar10](https://github.com/Vmar10) |
+| <img src="https://github.com/Worldofmarvis.png" width="40" height="40" style="border-radius: 50%;"> | Edmar D. Visto | Developer | [https://github.com/Worldofmarvis](https://github.com/Worldofmarvis) |
 | <img src="https://github.com/jeilyannnmerhan.png" width="40" height="40" style="border-radius: 50%;"> | jeilylyly | Developer | [https://github.com/jeilyannnmerhan](https://github.com/jeilyannnmerhan) |
 | <img src="https://github.com/Faijeyy.png" width="40" height="40" style="border-radius: 50%;"> | Aj | Developer | [https://github.com/Faijeyy](https://github.com/Faijeyy) |
 
